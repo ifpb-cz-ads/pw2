@@ -90,7 +90,7 @@ const dataFinal: IntervaloTempo = {
 
 - Assim, como no JavaScript, TypeScript permite o aninhamento de objetos, com utiliação ou não de alias
 
-````typescript
+`````typescript
 type Livro = {
   autor: {
     nome: string;
@@ -140,7 +140,7 @@ const livro3 = {
 - É possível marcar uma propriedade de um objeto como sendo opcional a partir do uso de `?` antes do tipo da propriedade
 - Lembrando que uma propriedade opcional pode ou não existir sendo diferente de um tipo `union` que contém `undefined`
 
-```typescript
+````typescript
 type Livro = {
   autor?: string;
   paginas: number;
@@ -165,4 +165,4 @@ const autor1: Escritor = {
 };
 
 const autor2: Escritor = {}; // erro: nome é obrigatória
-````
+`````
